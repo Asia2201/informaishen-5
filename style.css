@@ -1,0 +1,24 @@
+/* Custom styles for 5th grade interactive app */
+.drag-over {
+    border-style: dashed !important;
+    border-color: #3b82f6 !important;
+    background-color: #eff6ff !important;
+}
+
+.file-item, .folder-item {
+    user-select: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.file-item:hover, .folder-item:hover {
+    transform: translateY(-2px);
+}
+
+@media print {
+    header, footer, button, .no-print {
+        display: none !important;
+    }
+    body {
+        background-color: white !important;
+    }
+}
