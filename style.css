@@ -1,8 +1,8 @@
-/* Custom styles for 5th grade interactive app */
+/* CSS styles for 5th Grade Interactive Learning App */
 .drag-over {
     border-style: dashed !important;
-    border-color: #3b82f6 !important;
-    background-color: #eff6ff !important;
+    border-color: #0284c7 !important;
+    background-color: #e0f2fe !important;
 }
 
 .file-item, .folder-item {
@@ -15,7 +15,7 @@
 }
 
 @media print {
-    header, footer, button, .no-print {
+    header, footer, button, #progress-bar-container, .no-print {
         display: none !important;
     }
     body {
